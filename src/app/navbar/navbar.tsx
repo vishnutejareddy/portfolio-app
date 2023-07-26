@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         <div className='flex items-center justify-center px-8 mt-4 mb-1'>
             <Link
-            href='/' target='_blank'
+            href='https://github.com/vishnutejareddy' target='_blank'
             data-te-ripple-init
             data-te-ripple-color="light"
             className="mb-2 mx-2 hover:scale-110 inline-block rounded-full px-4 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg bg-[#333]">
@@ -79,7 +79,7 @@ const Navbar = () => {
             </Link>
             </li>
             <li className="transition ease-in-out border-none rounded-md text-base hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 border-2 hover:border-yellow-300 text-center text-gray-300 hover:text-white px-8 py-1">
-            <Link className="flex justify-center" href="/">    
+            <Link className="flex justify-center" href="/resume">    
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
                 </svg>
