@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">      
-    <body className="flex flex-row flex-auto {inter.className}">
+    <body className="flex flex-row flex-auto {inter.className} bg-purple-400 bg-opacity-30">
     <Navbar />
     {children}
     </body>

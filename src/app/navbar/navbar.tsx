@@ -54,40 +54,40 @@ const Navbar = () => {
         </div>
         <nav className="flex items-start justify-center">
           <ul className="justify-center space-y-2 py-4 px-8">
-            <li className="transition ease-in-out border-none rounded-md text-base hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500  border-2 hover:border-blue-300 text-center text-gray-300 hover:text-white px-8 py-1">
-            <Link className="flex justify-center" href="/">
+            <li>
+            <Link className="transition ease-in-out border-none rounded-md text-base hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500  border-2 hover:border-blue-300 text-center text-gray-300 hover:text-white flex justify-center px-8 py-1" href="/">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
                 <p className="ml-2">Home</p>
             </Link>
             </li>
-            <li className="transition ease-in-out border-none rounded-md text-base hover:-translate-y-1 hover:scale-110 hover:bg-green-500 border-2 hover:border-green-300 text-center text-gray-300 hover:text-white px-8 py-1">
-            <Link className="flex justify-center" href="/about">
+            <li>
+            <Link className="transition ease-in-out border-none rounded-md text-base hover:-translate-y-1 hover:scale-110 hover:bg-green-500 border-2 hover:border-green-300 text-center text-gray-300 hover:text-white px-8 py-1 flex justify-center" href="/about">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                 </svg>
             <p className="ml-2">About</p>
             </Link>
             </li>
-            <li className="transition ease-in-out border-none rounded-md text-base hover:-translate-y-1 hover:scale-110 hover:bg-red-500 border-2 hover:border-red-300 text-center text-gray-300 hover:text-white px-8 py-1">
-            <Link className="flex justify-center" href="/skills">    
+            <li>
+            <Link className="transition ease-in-out border-none rounded-md text-base hover:-translate-y-1 hover:scale-110 hover:bg-red-500 border-2 hover:border-red-300 text-center text-gray-300 hover:text-white px-8 py-1 flex justify-center" href="/skills">    
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
                 </svg>
                 <p className="ml-2">Skills</p>
             </Link>
             </li>
-            <li className="transition ease-in-out border-none rounded-md text-base hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 border-2 hover:border-yellow-300 text-center text-gray-300 hover:text-white px-8 py-1">
-            <Link className="flex justify-center" href="/resume">    
+            <li>
+            <Link className="transition ease-in-out border-none rounded-md text-base hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 border-2 hover:border-yellow-300 text-center text-gray-300 hover:text-white px-8 py-1 flex justify-center" href="/resume">    
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
                 </svg>
                 <p className="ml-2">Resume</p>
             </Link>
             </li>
-            <li className="transition ease-in-out border-none rounded-md text-base hover:-translate-y-1 hover:scale-110 hover:bg-pink-500 border-2 hover:border-pink-300 text-center text-gray-300 hover:text-white px-8 py-1">
-            <Link className="flex justify-center" href="/projects">    
+            <li>
+            <Link className="transition ease-in-out border-none rounded-md text-base hover:-translate-y-1 hover:scale-110 hover:bg-pink-500 border-2 hover:border-pink-300 text-center text-gray-300 hover:text-white px-8 py-1 flex justify-center" href="/projects">    
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z" />
                 </svg>
